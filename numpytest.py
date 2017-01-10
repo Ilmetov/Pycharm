@@ -7,3 +7,4 @@ import numpy as np
 c = np.array ([1,2,np.NAN,3,4])
 np.isnan(c)
 print(np.mean(c[~np.isnan(c)]))
+#print(a*2)
