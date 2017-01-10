@@ -1,0 +1,6 @@
+setwd("/Users/Dok/PycharmProjects/SMSUO/data")
+library(TTR)
+library(zoo)
+library(ggplot2)
+library(reshape2)
+smsuo = read.csv("AGG_EVENTS_OPCAT_DAY.csv",header=FALSE, sep=";")
